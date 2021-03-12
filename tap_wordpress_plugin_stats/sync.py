@@ -7,7 +7,9 @@ from typing import Callable
 import singer
 from singer.catalog import Catalog
 
-from tap_wordpress_plugin_stats.wordpress_stats import WordPressPluginStats
+from tap_wordpress_plugin_stats.wordpress_plugin_stats import (  # noqa: I001
+    WordPressPluginStats,  # noqa: I001
+)  # noqa: I001
 
 LOGGER: logging.RootLogger = singer.get_logger()
 

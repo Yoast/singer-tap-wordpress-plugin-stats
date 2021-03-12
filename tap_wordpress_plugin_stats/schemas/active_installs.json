@@ -1,0 +1,26 @@
+{
+	"selected": true,
+	"type": [
+		"null",
+		"object"
+	],
+	"additionalProperties": false,
+	"properties": {
+		"plugin": {
+			"type": "string"
+		},
+        "date": {
+			"type": [
+				"null",
+				"string"
+			],
+            "format": "date"
+		},
+        "percentage": {
+			"type": [
+				"null",
+				"number"
+			]
+		}
+    }
+}

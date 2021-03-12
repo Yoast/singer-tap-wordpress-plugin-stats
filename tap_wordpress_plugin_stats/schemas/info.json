@@ -1,0 +1,117 @@
+{
+	"selected": true,
+	"type": [
+		"null",
+		"object"
+	],
+	"additionalProperties": false,
+	"properties": {
+		"plugin": {
+			"type": "string"
+		},
+        "timestamp": {
+			"type": [
+				"null",
+				"string"
+			],
+            "format": "date-time"
+		},
+        "active_installs": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "downloaded": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "last_updated": {
+			"type": [
+				"null",
+				"string"
+			],
+            "format": "date-time"
+		},
+        "num_ratings": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "rating": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "ratings_0": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "ratings_1": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "ratings_2": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "ratings_3": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "ratings_4": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "ratings_5": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "support_threads": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "support_threads_resolved": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "version": {
+			"type": [
+				"null",
+				"string"
+			]
+		}
+    }
+}

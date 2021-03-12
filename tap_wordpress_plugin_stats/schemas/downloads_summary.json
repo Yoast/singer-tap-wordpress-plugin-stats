@@ -1,0 +1,48 @@
+{
+	"selected": true,
+	"type": [
+		"null",
+		"object"
+	],
+	"additionalProperties": false,
+	"properties": {
+		"plugin": {
+			"type": "string"
+		},
+        "all_time": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "today": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "yesterday": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "last_week": {
+			"type": [
+				"null",
+				"number"
+			],
+            "format": "integer"
+		},
+        "timestamp": {
+			"type": [
+				"null",
+				"string"
+			],
+            "format": "date-time"
+		}
+    }
+}
