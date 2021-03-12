@@ -1,0 +1,2 @@
+include LICENSE
+include tap_wordpress_plugin_stats/schemas/*.json
